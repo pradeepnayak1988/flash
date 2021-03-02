@@ -19,7 +19,7 @@ public class MathUtils {
 	}
 	
 	public double computeCircleArea(double radius) {
-		//return 3.14*radius*radius;
+		//return 3.14*radius * radius;//Replaced with Math library
 		return Math.PI*radius*radius;
 	}
 }
